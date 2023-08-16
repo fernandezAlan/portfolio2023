@@ -1,0 +1,20 @@
+#home-section{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    animation: introUp 2s;
+    position: relative;
+  
+    p{
+        strong {
+            font-size: $fuente-mediana;
+            span{
+                color: $color-primario;
+            }
+        }
+        width: 50%;
+        font-size: $fuente-chica;
+    }
+
+  
+}

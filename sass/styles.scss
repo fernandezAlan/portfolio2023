@@ -1,0 +1,51 @@
+@import "./variables";
+@import "./animations";
+@import "./home";
+@import "./about";
+* {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header {
+    background-color: $color-black;
+    height: 30vh;
+    color: $color-white;
+    padding: 20px;
+    text-align: center;
+    h1{
+        font-size: $fuente-grande;
+        color: $color-primario;
+    }
+    h2{
+        font-size: $fuente-mediana;
+        font-weight: lighter;
+    }
+}
+
+main {
+    padding: 0px 200px;
+    padding-top: 100px;
+    height: 70vh;
+    background-color: $color-white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 99999px;
+}
+
+button {
+    width: 120px;
+    font-size: $fuente-chica;
+    color: $color-primario;
+    border: solid 1px $color-primario;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
