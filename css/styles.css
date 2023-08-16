@@ -25,7 +25,7 @@
   font-size: 30px;
 }
 #home-section p strong span {
-  color: red;
+  color: blue;
 }
 
 #about {
@@ -54,7 +54,7 @@ header {
 }
 header h1 {
   font-size: 45px;
-  color: red;
+  color: blue;
 }
 header h2 {
   font-size: 30px;
@@ -80,8 +80,8 @@ img {
 button {
   width: 120px;
   font-size: 17px;
-  color: red;
-  border: solid 1px red;
+  color: blue;
+  border: solid 1px blue;
   padding: 10px;
   border-radius: 5px;
   margin-top: 30px;
